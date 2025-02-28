@@ -17,6 +17,7 @@ const Hero:React.FC = () => {
             </div>
             <Menu/>
         </div>
+        
         <div className="relative z-30 p-5 text-2xl text-white flex flex-col items-center justify-center rounded-xl mt-10 container max-md:mt-24">
         
             <img src={Singularity} alt="SingularityNet" className='w-60 max-md:w-40'/>
@@ -32,7 +33,7 @@ const Hero:React.FC = () => {
                 <Icon icon="fluent-mdl2:separator" className='w-10 h-10 max-md:w-5 max-md:h-5'/>
                 <h1><span className='text-orange-500'>25,000</span> Students</h1>
             </div>
-            <div className='font-justina'>
+            <div className='font-justina mt-4 mr-8'>
                 <Button name='Register now!' size='lg'/>
             </div>
         </div>
