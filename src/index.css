@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'Proxon';
+    src: url('../static/fonts/proxon.ttf') format('truetype');
+  }
+@font-face {
+    font-family: 'Justina';
+    src: url('../static/fonts/VTFJustinaGEO-Regular.otf') format('truetype');
+  }
+
+
+@theme {
+--font-proxon: "Proxon", sans-serif; 
+--font-justina: "Justina", sans-serif; 
+--color-darkpurple: #28083A;
+
+}
