@@ -64,7 +64,7 @@ const SideBar: React.FC = () => {
       <aside
         id="sidebar-multi-level-sidebar"
         ref={sidebarRef}
-        className="fixed top-17 left-1 z-40 w-50 h-5/6 bg-gradient-to-r to-[#6A1799] from-[#230833] rounded-xl ring-2 ring-gray-300/50"
+        className="fixed top-17 left-1 z-40 w-48 h-5/6 bg-gradient-to-r to-[#6A1799] from-[#230833] rounded-xl ring-2 ring-gray-300/50"
         aria-label="Sidebar"
       >
         <div className="h-full px-3 py-4 overflow-y-auto">
