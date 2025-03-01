@@ -1,50 +1,69 @@
-# React + TypeScript + Vite
+# **Dcodeblock Hackathon Assignment**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+## **Introduction**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+For the DCodeBlock assignment, I developed a Home page using React, TypeScript, Tailwind CSS, and GSAP. The assignment involved implementing sophisticated design elements, including complex buttons and various design logic.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## **Technologies Used**
 
-- Configure the top-level `parserOptions` property like this:
+- React JS: For building the user interface.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+- TypeScript: For adding type safety and improving code quality.
+
+- Tailwind CSS: For streamlined styling.
+
+- GSAP: minimalistic sidebar on mobile view.
+
+## **Installation**
+
+To set up this assignment locally, follow these steps:
+
+
+**Clone the repository:**
+
+```bash
+https://github.com/hr-ishi94/dcodeblock-hackathon
 ```
+**Navigate to the project directory:**
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+```bash
+cd cd dcodeblock-hackathon
 ```
+**Install dependencies:**
+
+```bash
+npm install
+```
+**Build the project:**
+
+```bash
+npm run build
+```
+**Start the development server:**
+
+```bash
+npm start
+```
+**Open your browser and visit http://localhost:5173/ to view the app.**
+
+
+
+## **Challenges Faced**
+
+One of the biggest challenges I faced was creating the complex button, which took a significant amount of time. I conducted extensive research and eventually solved it by using two SVGs, allowing me to complete the task on time.
+
+Another challenge was implementing GSAP, as I was unfamiliar with it. I took some time to learn the basics and successfully used it to create a minimalistic sidebar for mobile views.
+
+## **Live Link:** [Hackathon Assignment](https://dcodeblock-hackathon.vercel.app/)
+
+
+Special thanks to DCodeBlock for providing the assignment and the resources.
+
+Contact
+For questions, feedback, or support, please reach out to:
+
+Your Name: hrishikeshprasadc@gmail.com
+
+Project Repository: [GitHub Repository Link](https://github.com/hr-ishi94/dcodeblock-hackathon)
