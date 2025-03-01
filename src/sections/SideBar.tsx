@@ -64,7 +64,7 @@ const SideBar: React.FC = () => {
       <aside
         id="sidebar-multi-level-sidebar"
         ref={sidebarRef}
-        className="fixed top-17 left-1 z-40 w-46 h-5/6 bg-gradient-to-r to-[#6A1799] from-[#230833] rounded-xl ring-2 ring-gray-300/50"
+        className="fixed top-17 left-1 z-40 w-46 h-5/6 bg-gradient-to-r to-[#6A1799] from-[#230833] rounded-xl ring-2 ring-gray-300/50 md:hidden"
         aria-label="Sidebar"
       >
         <div className="h-full py-4 overflow-y-auto">
@@ -74,7 +74,7 @@ const SideBar: React.FC = () => {
                 href="#"
                 className="flex items-center py-2 text-gray-200 rounded-lg group"
               >
-            <span className="ms-3">
+            <span className="">
 
                 <Button name='OverView' />
             </span>
@@ -85,7 +85,7 @@ const SideBar: React.FC = () => {
                 href="#"
                 className="flex items-center py-2 text-gray-200 rounded-lg group"
               >
-                <span className="ms-3">
+                <span className="">
                 <Button name='Create Team' isActive/>
 
                 </span>
@@ -96,7 +96,7 @@ const SideBar: React.FC = () => {
                 href="#"
                 className="flex items-center py-2 text-gray-200 rounded-lg group"
               >
-                <span className="ms-3">
+                <span className="">
                 <Button name='Prizes' isActive/>
 
                 </span>
@@ -107,7 +107,7 @@ const SideBar: React.FC = () => {
                 href="#"
                 className="flex items-center py-2 text-gray-200 rounded-lg group"
               >
-                <span className="ms-3">
+                <span className="">
                 <Button name='FAQs' isActive/>
 
                 </span>
@@ -118,7 +118,7 @@ const SideBar: React.FC = () => {
                 href="#"
                 className="flex items-center py-2 text-gray-200 rounded-lg  group"
               >
-                <span className="ms-3">
+                <span className="">
                   <Button name='Judging' isActive/>
 
                 </span>
@@ -129,7 +129,7 @@ const SideBar: React.FC = () => {
                 href="#"
                 className="flex items-center py-2 text-gray-200 rounded-lg group"
               >
-                <span className="ms-3">
+                <span className="">
                   <Button name='Resources' isActive/>
 
                 </span>
